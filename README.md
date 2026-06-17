@@ -1,2 +1,59 @@
-# UDP-sound-stream-over-LAN-GUI
-streaming your PC sound output to another PC over the same network (very FAST) with clean/simple GUI
+# UDP Sound Stream Over LAN - GUI
+
+A lightweight, cross-platform application for streaming your PC's audio output to another PC on the same local area network with a clean, simple UI, low latency, and an intuitive user experience.
+
+## Supported Platforms
+
+- **Windows 10** (AMD64)
+- **Windows 11** (AMD64)
+- **Linux**
+
+## Getting Started
+
+### Windows (AMD64)
+
+Simply download the `.exe` file from [Releases](../../releases) and run it.
+
+### Linux
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/spiritofthenight/UDP-sound-stream-over-LAN-GUI.git
+   cd UDP-sound-stream-over-LAN-GUI
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   python3 -m venv myenv
+   source myenv/bin/activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Build the application for the server:
+   ```bash
+   pyinstaller guiserver.py --onefile --noconsole --icon icon.ico
+   cd dist
+   ./guiserver
+   ```
+
+5. Repeat the same process for the client:
+   ```bash
+   pyinstaller guiclient.py --onefile --noconsole --icon icon.ico
+   cd dist
+   ./guiclient
+   ```
+
+## Alternative CLI Version
+
+If you prefer a simpler command-line interface, check out the original CLI version:
+
+[UDP-sound-stream-over-LAN](https://github.com/spiritofthenight/UDP-sound-stream-over-LAN)
+
+## Notes
+
+- This application was developed and tested with **Python 3.12**
+- If you encounter issues with NumPy version 1.26.4, you can use **NumPy 2.4.6** with Python 3.13.5 as an alternative
