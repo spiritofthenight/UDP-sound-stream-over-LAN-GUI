@@ -8,7 +8,7 @@ A lightweight, cross-platform application for streaming your PC's audio output t
 - **Windows 11** (AMD64) ✅ TESTED
 - **Linux** (AMD64)      ✅ TESTED
 
-- **macOS** ! Not Tested but should work
+- **macOS** ! Not Tested but should work if you can run it from source
 
 ## Getting Started
 
