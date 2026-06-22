@@ -17,7 +17,11 @@ A lightweight, cross-platform application for streaming your PC's audio output t
 Simply download the `.exe` file from [Releases](../../releases) and run it.
 
 ### Linux
-
+#
+*note: make sure you have python3-tkinter & python3-pyaudio installed on your machine ;
+if they are not installed you should install them with your package manager e.g on debian:
+sudo apt install python3-tkinter python3-pyaudio
+#
 1. Clone the repository:
    ```bash
    git clone https://github.com/spiritofthenight/UDP-sound-stream-over-LAN-GUI.git
