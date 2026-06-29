@@ -1,4 +1,7 @@
 # UDP Sound Stream Over LAN - GUI
+### do you need to stream your PC sound to another PC on LAN ?
+<b>then this project is for you .<b>
+
 
 A lightweight, cross-platform application for streaming your PC's audio output to another PC on the same local area network with a clean, simple UI, low latency, and an intuitive user experience.
 
